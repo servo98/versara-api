@@ -10,7 +10,7 @@ import path from 'path'
 /**
  * Routes imports
  */
-// import AuthRoutes from './routes/AuthRoutes.mjs';
+import ProspectoRoutes from './routes/prospectoRoutes.js';
 
 dotenv.config();
 db.init(process.env.DB_USER, process.env.DB_PASS, process.env.DB_NAME, process.env.DB_HOST);
@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: false }))
 /**
  * App routes
  */
-// app.use('/auth', AuthRoutes)
+app.use('/prospecto', ProspectoRoutes)
 
 
 
