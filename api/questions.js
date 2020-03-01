@@ -1,5 +1,6 @@
 export default [
     {
+        "name": "ingreso",
         "question": "¿Cuál de las siguientes afirmaciones describe mejor tu situación de ingresos (cantidad de dinero que recibes), comparado con tus gastos (cantidad de dinero que gastas) durante los últimos 12 meses? ",
         "answers": [
             {
@@ -22,9 +23,11 @@ export default [
                 "value": 0,
                 "string":"En la mala, siempre gasto mucho más de lo que me ingresa"
             } 
-        ]
+        ],
+        "type" :"radio"
     },
     {
+        "name": "obligaciones",
         "question": "¿Cuál de las siguientes afirmaciones mejor describe el pago de tus obligaciones (recibos de luz, agua, gas, celular, etc.) durante los últimos 12 meses?",
         "answers": [
             {
@@ -47,9 +50,11 @@ export default [
                 "value": 0,
                 "string":"¿De qúe me hablas? siempre viendo como cubrir los huecos"
             } 
-        ] 
+        ] ,
+        "type" :"radio"
     },
     {
+        "name": "ritmo",
         "question": "¿Con tu ritmo actual de gastos, si tuvieras que vivir con solo el dinero que tienes en este momento, sin sacar de tus pensiones o sacar un crédito, cuánto tiempo alcanzarías a vivir?",
         "answers": [
             {
@@ -72,9 +77,11 @@ export default [
                 "value": 0,
                 "string":"No llego ni a la semana"
             } 
-        ] 
+        ] ,
+        "type" :"radio"
     },
     {
+        "name": "metas",
         "question": "Pensando en tus metas financieras a futuro como viajar, tomar vacaciones, estudiar, pensionarte, iniciar un negocio, comprar un carro, un apartamento, etc., ¿Qué tan segura te sientes de cumplir con tus metas?",
         "answers": [
             {
@@ -97,9 +104,11 @@ export default [
                 "value": 0,
                 "string":"Para nada segura!"
             } 
-        ] 
+        ] ,
+        "type" :"radio"
     },
     {
+        "name": "deudas",
         "question": "Pensando en tus deudas, es decir lo que debes en préstamos bancarios, tarjetas, el préstamo de la casa, lo que debes a personas que te han prestado dinero, etc., ¿qué tan manejables son esas deudas? ",
         "answers": [
             {
@@ -118,9 +127,11 @@ export default [
                 "value": 0,
                 "string":"Tengo a los cobradores todos los meses encima"
             }
-        ] 
+        ] ,
+        "type" :"radio"
     },
     {
+        "name": "bancos",
         "question": "Los bancos:",
         "answers": [
             {
@@ -143,9 +154,11 @@ export default [
                 "value": 0,
                 "string": "ya ni me contestan"
             }
-        ] 
+        ] ,
+        "type" :"radio"
     },
     {
+        "name": "seguros",
         "question": "Pensando en seguros que tu o tu familia puedan tener actualmente, tales como seguros de vida, seguros del auto, seguros para discapacidad, seguros para el hogar, entre otros, ¿qué tan segura te sientes que estos seguros son suficientes en un caso de emergencia o inesperado? ",
         "answers": [
             {
@@ -172,9 +185,11 @@ export default [
                 "value": 0,
                 "string": "Ni mi familia ni yo tenemos seguros"
             }
-        ] 
+        ] ,
+        "type" :"radio"
     },
     {
+        "name": "afirmacion",
         "question": "Qué tan de acuerdo estoy con ésta afirmación: 'planeo financieramente con antelación'",
         "answers": [
             {
@@ -197,6 +212,7 @@ export default [
                 "value": 0,
                 "string": "Ni cerca!"
             }
-        ] 
+        ] ,
+        "type" :"radio"
     }
 ]

@@ -7,7 +7,7 @@ export async function create(req, res) {
             req.body
         );
         const newProspe = await newPros.save();
-
+        
         return res.json({result: newProspe});
     } catch (error) {
         res.status(500).send({message: 'Error al crear prospecto', error});
