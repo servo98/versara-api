@@ -4,7 +4,7 @@ const tasa = 3.7;
 
 export async function calculate(req, res) {
     try {
-        return res.json(calcular(req.body.mount, req.body.time, tasa));
+        return res.json(calcular(req.body.amount, req.body.time, tasa));
     } catch (error) {
         res.status(500).json({ message: 'Error al calcular crédito', error });
     }
