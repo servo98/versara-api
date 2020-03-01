@@ -11,6 +11,7 @@ import path from 'path'
  * Routes imports
  */
 import ProspectoRoutes from './routes/prospectoRoutes.js';
+import QuestionsRoutes from './routes/questionsRoutes.js'
 
 dotenv.config();
 db.init(process.env.DB_USER, process.env.DB_PASS, process.env.DB_NAME, process.env.DB_HOST);
@@ -30,7 +31,7 @@ app.use(express.urlencoded({ extended: false }))
  * App routes
  */
 app.use('/prospecto', ProspectoRoutes)
-
+app.use('/questions', QuestionsRoutes)
 
 
 /**

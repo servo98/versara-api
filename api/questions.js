@@ -1,4 +1,4 @@
-[
+export default [
     {
         "question": "¿Cuál de las siguientes afirmaciones describe mejor tu situación de ingresos (cantidad de dinero que recibes), comparado con tus gastos (cantidad de dinero que gastas) durante los últimos 12 meses? ",
         "answers": [

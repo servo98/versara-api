@@ -32,14 +32,13 @@ export default mongoose.model('Prospecto', new mongoose.Schema({
     status: {
         type: String,
         required: true,
-        enum: [
-            'soltera',
-            'casada',
-            'divorciada'
-        ]
     },
     children: {
         type: Number,
         required: true
+    },
+    score: {
+        type: Number,
+        default: 0
     }
 }));
