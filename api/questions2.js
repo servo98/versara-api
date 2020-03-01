@@ -94,33 +94,19 @@ export default[{
     ]
   },
   {
-    "question":"¿Cuantos?",
+    "question":"¿Hijos, cuántos?",
     "name": "children",
     type:"number",
   },
   {
-    "question":"¿Tienes hijos?",
-    "name": "child",
-    type:"radio",
-    "answers": [{
-      "value":"Sí",
-      "string":"Sí",
-      },
-      {
-      "value":"No",
-      "string":"No",
-      },
-    ]
-  },
-  {
     "question":"Correo",
     "name": "email",
-    "placeholder": "556474444",
-    type:"phone",
+    "placeholder": "corre@ejemplo.com",
+    type:"email",
   },
   {
     "question":"Teléfono",
-    "name": "email",
+    "name": "phone",
     "placeholder": "556474444",
     type:"phone",
   },
@@ -135,11 +121,5 @@ export default[{
     "name": "name",
     "placeholder": "Nombre Apellidos",
     type:"text",
-  },
-  {
-    "question":"Correo",
-    "name": "email",
-    "placeholder": "correo@ejemplo.com",
-    type:"email",
   },
   ]

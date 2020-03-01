@@ -18,7 +18,7 @@ export default mongoose.model('Prospecto', new mongoose.Schema({
         required: true
     },
     age: {
-        type: Number,
+        type: String,
         required: true
     },
     country: {
@@ -26,7 +26,7 @@ export default mongoose.model('Prospecto', new mongoose.Schema({
         required: true
     },
     income: {
-        type: Number,
+        type: String,
         required: true
     },
     status: {
